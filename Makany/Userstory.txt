@@ -1,0 +1,15 @@
+Userstory:
+
+[p:5 w:4 ] As a student wants to detemine the location of lecture so that he reach the lecture location.
+[p:5 w:4 ] As a student wants to detemine the location of section so that he reach the section location.
+[p:3 w:4 ] As a student wants to detemine the location of supervision so that he can ask about the dates or availability of employees.
+[p:4 w:4 ] As a student wants to know the place to receiving books so that he get the books.
+[p:3 w:4 ] As a student wants to know the location of doctor/manager so that he inquire or complain about something.
+[p:5 w:4 ] As a student wants to see the schedule so that he reaches the schedule section.
+[p:3 w:2 ] As a student wants to know the location of paying place so that he pays expenses.
+[p:4 w:3 ] As a student wants to know the location of administeative affairs so that he can make official papers or inquire about something.
+[p:2 w:3 ] As a student wants to know the location of library so that he can read the books.
+
+[p:5  w:3 ] As a visitor wants to know the location of administeative affairs so that he can make official papers or inquire about something.
+[p:5  w:3 ] As a visitor wants to know the location of doctor/manager so that he inquire or complain about something.
+[p:5  w:2 ] As a visitor wants to know the location of paying place so that he pays expenses.
