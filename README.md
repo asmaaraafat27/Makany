@@ -7,4 +7,4 @@ Makany is my team Project in Software Engineering2 lectures.
 - Find us
 
 ### Overview:
-Makany is a mobile application that helps new students easily find the location of all places in our college. We help new students and visitors to find the location of their destination.
+Makany is a mobile application that show all places in our college. We help new students and visitors to find the location of their destination.
