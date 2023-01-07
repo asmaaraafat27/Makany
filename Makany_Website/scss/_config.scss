@@ -1,0 +1,114 @@
+$color-hover: #fafafa;
+$gray-border-img: #ececec;
+$white: #fff;
+$black: #000;
+$transition-time: 0.3s;
+$main-padding: 60px;
+
+$main-orange-color: #ed9728;
+$main-green-color: #075e54;
+$border-color: #c0c0c0;
+$almost-black: #313030;
+$footer-color: #ccc;
+$footer-text: #b9b9b9;
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+::selection {
+    background-color: $main-orange-color;
+    color: $white;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "cairo", "Kufam", sans-serif;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2 {
+    font-family: "Cairo";
+}
+
+/* small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+        margin: auto;
+    }
+}
+/* medium */
+@media (min-width: 992px) {
+    .container {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+/* large */
+@media (min-width: 1200px) {
+    .container {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.main-title {
+    margin: 0 auto 80px;
+    padding: 0px 20px;
+    font-size: 30px;
+    width: fit-content;
+    position: relative;
+    z-index: 1;
+    transition: var(--main-transition-duration);
+    color: $main-green-color;
+}
+.main-title::before,
+.main-title::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: $main-green-color;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.main-title::before {
+    left: -30px;
+}
+.main-title::after {
+    right: -30px;
+}
+.main-title:hover::before {
+    z-index: -1;
+    animation: left-move 1.5s linear forwards;
+}
+.main-title:hover::after {
+    z-index: -1;
+    animation: right-move 1.5s linear forwards;
+}
+.main-title:hover {
+    color: #fff;
+    border: 2px solid #fff;
+    transition-delay: 0.5s;
+}
