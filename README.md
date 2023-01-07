@@ -3,7 +3,7 @@ Makany is my team Project in Software Engineering2 lectures.
 ### Table Content:
 - [Overview](https://github.com/asmaaraafat27/Makany/blob/main/README.md#overview)
    - Screenshots
-   - Technology used
+   - Technologies used
 - Find us
 
 ### Overview:
