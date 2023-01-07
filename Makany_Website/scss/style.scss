@@ -208,7 +208,7 @@ h1.first {
     border: 3px solid $border-color;
     padding: 50px 30px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(346px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
     margin: 0 auto;
     gap: 30px 90px;
     justify-content: center;
@@ -315,7 +315,7 @@ h1.first {
 }
 .team .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 70px 40px;
 }
 .team .box {
@@ -403,7 +403,7 @@ h1.first {
 }
 .footer .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
     gap: 40px;
 }
 .footer .box h3 {
